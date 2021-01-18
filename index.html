@@ -610,7 +610,7 @@
 
                 
                     <a href="https://ioovl.gitee.io/test/" class="waves-effect waves-light btn" target="_blank">
-                        <i class=""></i>京东静态页面
+                        <i class=""></i>JD.com
                     </a>
                 
             </div>
@@ -621,9 +621,6 @@
 
 
 
-    <a href="mailto:734416032@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
 
 
 
@@ -631,19 +628,10 @@
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=734416032" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 734416032" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
 
 
 
 
-
-
-
-    <a href="/ioovl/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
 
 </div>
         </div>
@@ -724,22 +712,44 @@
             <div class="card">
                 <div class="card-content">
                     
-                        <div class="dream">
+
+                    
+
+                    
+                        <link rel="stylesheet" href="/ioovl/libs/dplayer/DPlayer.min.css">
+<div class="video-player">
     
     <div class="title center-align">
-        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;Eat without salt, rely on soy sauce to BB
+        <i class="fas fa-video-camera"></i>&nbsp;&nbsp;—— 精彩视频——
     </div>
     
     <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            愿我们都能·简单的幸福着·幸福的简单着
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="dplayer" class="dplayer-video"
+                    ></div>
         </div>
     </div>
 </div>
 
-                    
-
-                    
+<script src="/ioovl/libs/dplayer/DPlayer.min.js"></script>
+<script>
+    $(function () {
+        new DPlayer({
+            container: document.getElementById('dplayer'),
+            autoplay: 'false' === 'true',
+            theme: '#42b983',
+            loop: 'false' === 'true',
+            lang: 'zh-CN' === 'zh-CN' ? 'zh-cn' : 'en',
+            preload: 'auto',
+            volume: Number('0.7'),
+            video: {
+                url: '',
+                pic: '',
+                thumbnails: ''
+            }
+        });
+    });
+</script>
 
                     
 
@@ -1194,9 +1204,6 @@ gitee 是国内的网站，相较于 github 访问速度更快；
 
 
 
-    <a href="mailto:734416032@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
 
 
 
@@ -1204,19 +1211,10 @@ gitee 是国内的网站，相较于 github 访问速度更快；
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=734416032" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 734416032" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
 
 
 
 
-
-
-
-    <a href="/ioovl/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
 
 </div>
     </div>
