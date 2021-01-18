@@ -3,11 +3,11 @@
   <title>ioovl</title>
   
   <subtitle>小螃蟹的日记</subtitle>
-  <link href="https://ipvb.gitee.io/atom.xml" rel="self"/>
+  <link href="https://ioovl.gitee.io/atom.xml" rel="self"/>
   
-  <link href="https://ipvb.gitee.io/"/>
+  <link href="https://ioovl.gitee.io/"/>
   <updated>2021-01-18T03:49:16.124Z</updated>
-  <id>https://ipvb.gitee.io/</id>
+  <id>https://ioovl.gitee.io/</id>
   
   <author>
     <name>小螃蟹的日记</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>修改连接</title>
-    <link href="https://ipvb.gitee.io/2021/01/18/xiu-gai-lian-jie/"/>
-    <id>https://ipvb.gitee.io/2021/01/18/xiu-gai-lian-jie/</id>
+    <link href="https://ioovl.gitee.io/posts/undefined.html"/>
+    <id>https://ioovl.gitee.io/posts/undefined.html</id>
     <published>2021-01-18T03:01:30.000Z</published>
     <updated>2021-01-18T03:49:16.124Z</updated>
     
@@ -39,9 +39,33 @@
   </entry>
   
   <entry>
+    <title></title>
+    <link href="https://ioovl.gitee.io/posts/34388.html"/>
+    <id>https://ioovl.gitee.io/posts/34388.html</id>
+    <published>2021-01-14T04:58:37.405Z</published>
+    <updated>2021-01-18T12:11:58.286Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title: 100vl&lt;br&gt;date: 2020-010-14 12:58:37&lt;br&gt;tags: js&lt;br&gt;categories: 默认分类 &lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;开源Nei&quot;&gt;&lt;a href=&quot;#开源Nei&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>js框架和库的区别</title>
-    <link href="https://ipvb.gitee.io/2020/11/16/js-kuang-jia-he-ku-de-qu-bie/"/>
-    <id>https://ipvb.gitee.io/2020/11/16/js-kuang-jia-he-ku-de-qu-bie/</id>
+    <link href="https://ioovl.gitee.io/posts/undefined.html"/>
+    <id>https://ioovl.gitee.io/posts/undefined.html</id>
     <published>2020-11-16T06:03:04.000Z</published>
     <updated>2021-01-18T03:15:56.555Z</updated>
     
@@ -56,19 +80,19 @@
     
     
     
-    <category term="sss" scheme="https://ipvb.gitee.io/categories/sss/"/>
+    <category term="sss" scheme="https://ioovl.gitee.io/categories/sss/"/>
     
     
-    <category term="js" scheme="https://ipvb.gitee.io/tags/js/"/>
+    <category term="js" scheme="https://ioovl.gitee.io/tags/js/"/>
     
   </entry>
   
   <entry>
     <title>小螃蟹的日记@博客---测试版9号</title>
-    <link href="https://ipvb.gitee.io/2020/10/16/xiao-pang-xie-de-ri-ji-bo-ke-ce-shi-ban-9-hao/"/>
-    <id>https://ipvb.gitee.io/2020/10/16/xiao-pang-xie-de-ri-ji-bo-ke-ce-shi-ban-9-hao/</id>
+    <link href="https://ioovl.gitee.io/posts/21955.html"/>
+    <id>https://ioovl.gitee.io/posts/21955.html</id>
     <published>2020-10-15T16:56:38.000Z</published>
-    <updated>2021-01-18T02:55:13.234Z</updated>
+    <updated>2021-01-18T12:11:58.292Z</updated>
     
     
       
@@ -83,45 +107,19 @@
     
     
     
-    <category term="测试asd" scheme="https://ipvb.gitee.io/categories/%E6%B5%8B%E8%AF%95asd/"/>
+    <category term="测试asd" scheme="https://ioovl.gitee.io/categories/%E6%B5%8B%E8%AF%95asd/"/>
     
     
-    <category term="web" scheme="https://ipvb.gitee.io/tags/web/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>100vl</title>
-    <link href="https://ipvb.gitee.io/2020/10/14/100vl/"/>
-    <id>https://ipvb.gitee.io/2020/10/14/100vl/</id>
-    <published>2020-10-14T04:58:37.000Z</published>
-    <updated>2021-01-18T03:14:03.809Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;开源Nei&quot;&gt;&lt;a href=&quot;#开源Nei&quot; class=&quot;headerlink&quot; title=&quot;开源Nei&quot;&gt;&lt;/a&gt;开源Nei&lt;/h1&gt;&lt;p&gt;部署方式&lt;/p&gt;
-&lt;h3 id=&quot;部署方式一：Docker-部署&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="默认分类" scheme="https://ipvb.gitee.io/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/"/>
-    
-    
-    <category term="js" scheme="https://ipvb.gitee.io/tags/js/"/>
+    <category term="web" scheme="https://ioovl.gitee.io/tags/web/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://ipvb.gitee.io/2019/03/07/hello-world/"/>
-    <id>https://ipvb.gitee.io/2019/03/07/hello-world/</id>
+    <link href="https://ioovl.gitee.io/posts/16107.html"/>
+    <id>https://ioovl.gitee.io/posts/16107.html</id>
     <published>2019-03-06T19:40:19.000Z</published>
-    <updated>2021-01-18T02:55:56.383Z</updated>
+    <updated>2021-01-18T12:11:58.289Z</updated>
     
     
       
@@ -134,37 +132,37 @@
     
     
     
-    <category term="sss" scheme="https://ipvb.gitee.io/categories/sss/"/>
+    <category term="sss" scheme="https://ioovl.gitee.io/categories/sss/"/>
     
     
-    <category term="tag1" scheme="https://ipvb.gitee.io/tags/tag1/"/>
+    <category term="tag1" scheme="https://ioovl.gitee.io/tags/tag1/"/>
     
-    <category term="tag2" scheme="https://ipvb.gitee.io/tags/tag2/"/>
+    <category term="tag2" scheme="https://ioovl.gitee.io/tags/tag2/"/>
     
-    <category term="tag3" scheme="https://ipvb.gitee.io/tags/tag3/"/>
+    <category term="tag3" scheme="https://ioovl.gitee.io/tags/tag3/"/>
     
   </entry>
   
   <entry>
     <title>文章名称</title>
-    <link href="https://ipvb.gitee.io/2013/12/02/test/"/>
-    <id>https://ipvb.gitee.io/2013/12/02/test/</id>
+    <link href="https://ioovl.gitee.io/posts/36077.html"/>
+    <id>https://ioovl.gitee.io/posts/36077.html</id>
     <published>2013-12-02T07:30:16.000Z</published>
-    <updated>2021-01-18T02:56:15.373Z</updated>
+    <updated>2021-01-18T12:11:58.290Z</updated>
     
     
     <summary type="html">附加一段文章摘要，字数最好在140字以内，会出现在meta的description里面</summary>
     
     
     
-    <category term="默认分类" scheme="https://ipvb.gitee.io/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/"/>
+    <category term="默认分类" scheme="https://ioovl.gitee.io/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/"/>
     
     
-    <category term="tag1" scheme="https://ipvb.gitee.io/tags/tag1/"/>
+    <category term="tag1" scheme="https://ioovl.gitee.io/tags/tag1/"/>
     
-    <category term="tag2" scheme="https://ipvb.gitee.io/tags/tag2/"/>
+    <category term="tag2" scheme="https://ioovl.gitee.io/tags/tag2/"/>
     
-    <category term="tag3" scheme="https://ipvb.gitee.io/tags/tag3/"/>
+    <category term="tag3" scheme="https://ioovl.gitee.io/tags/tag3/"/>
     
   </entry>
   

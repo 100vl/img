@@ -65,12 +65,53 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/blog/" class="waves-effect waves-light">
+    <a href="/" class="waves-effect waves-light">
+
       
       <i class="fas fa-home" style="zoom: 0.6;"></i>
       
       <span>首页</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/blog/tags">
+          
+          <i class="fas fa-tags" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>标签</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/categories">
+          
+          <i class="fas fa-bookmark" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>分类</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/archives">
+          
+          <i class="fas fa-archive" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>时间</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/about">
+          
+          <i class="fas fa-user-circle" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>我的</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -220,12 +261,56 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/blog/" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-home"></i>
+				<i class="fa-fw fas fa-home"></i>
 			
 			首页
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/blog/tags " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-tags" style="position: absolute;left:50px" ></i>
+			      
+		          <span>标签</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/blog/categories " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-bookmark" style="position: absolute;left:50px" ></i>
+			      
+		          <span>分类</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/blog/archives " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-archive" style="position: absolute;left:50px" ></i>
+			      
+		          <span>时间</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/blog/about " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-user-circle" style="position: absolute;left:50px" ></i>
+			      
+		          <span>我的</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -487,20 +572,20 @@
                 
                 
                 
-                <a href="/blog/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/" title="默认分类: 2">
+                <a href="/blog/categories/sss/" title="sss: 2">
                     <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            style="background-color: #F9EBEA;">默认分类
+                             chip-default "
+                            style="background-color: #F9EBEA;">sss
                         <span class="tag-length">2</span>
                     </span>
                 </a>
                 
                 
-                <a href="/blog/categories/sss/" title="sss: 2">
+                <a href="/blog/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/" title="默认分类: 1">
                     <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F5EEF8;">sss
-                        <span class="tag-length">2</span>
+                             chip-active "
+                            style="background-color: #F5EEF8;">默认分类
+                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -527,54 +612,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/blog/2020/10/14/100vl/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/blog/medias/featureimages/23.jpg" class="responsive-img" alt="100vl">
-                            
-                            <span class="card-title">100vl</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                开源Nei部署方式
-部署方式一：Docker 部署因为有服务依赖，所以需要做容器编排，如果你使用的是 docker-compose，可以直接通过 docker-compose up -d 部署，默认服务运行在本地 8082 端口，你也可以加
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-14
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/blog/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/" class="post-category">
-                                    默认分类
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/blog/tags/js/">
-                            <span class="chip bg-color">js</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/blog/2013/12/02/test/">
+                    <a href="/blog/posts/36077.html">
                         <div class="card-image tag-image">
                             
                             
