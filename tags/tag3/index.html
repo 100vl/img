@@ -29,12 +29,24 @@
 
     <script src="/blog/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.3.0"><link rel="stylesheet" href="/blog/css/prism-tomorrow.css" type="text/css"></head>
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/blog/atom.xml" title="ioovl" type="application/atom+xml">
+<link rel="stylesheet" href="/blog/css/prism-tomorrow.css" type="text/css"></head>
 
 
 
 
 <body>
+    <!-- 樱花飘落layout.ejs -->
+    <script type="text/javascript">
+        //只在桌面版网页启用特效
+        var windowWidth = $(window).width();
+        if (windowWidth > 768) {
+            document.write('<script type="text/javascript" src="/js/snow.js"><\/script>');
+        }
+    </script>    
+    <!-- 雪花飘落 -->
+    <!-- D:\hexo\blog\themes\hexo-theme-matery\source\js\snow.js -->
+    <!-- <script type="text/javascript" src="/js/snow.js"></script>     -->
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
@@ -667,7 +679,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.7k</span>&nbsp;字
+                class="white-color">1.9k</span>&nbsp;字
             
             
             

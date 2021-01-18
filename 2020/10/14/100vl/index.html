@@ -29,12 +29,24 @@
 
     <script src="/blog/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.3.0"><link rel="stylesheet" href="/blog/css/prism-tomorrow.css" type="text/css"></head>
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/blog/atom.xml" title="ioovl" type="application/atom+xml">
+<link rel="stylesheet" href="/blog/css/prism-tomorrow.css" type="text/css"></head>
 
 
 
 
 <body>
+    <!-- 樱花飘落layout.ejs -->
+    <script type="text/javascript">
+        //只在桌面版网页启用特效
+        var windowWidth = $(window).width();
+        if (windowWidth > 768) {
+            document.write('<script type="text/javascript" src="/js/snow.js"><\/script>');
+        }
+    </script>    
+    <!-- 雪花飘落 -->
+    <!-- D:\hexo\blog\themes\hexo-theme-matery\source\js\snow.js -->
+    <!-- <script type="text/javascript" src="/js/snow.js"></script>     -->
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
@@ -570,7 +582,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-01-16
+                    2021-01-18
                 </div>
                 
 
@@ -604,16 +616,17 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="开源Nei"><a href="#开源Nei" class="headerlink" title="开源Nei"></a>开源Nei</h1><p>部署方式<br>部署方式一：Docker 部署<br>因为有服务依赖，所以需要做容器编排，如果你使用的是 docker-compose，可以直接通过 docker-compose up -d 部署，默认服务运行在本地 8082 端口，你也可以加入 Caddy 或者 Nginx 编排用于实际生产环境。</p>
-<p>部署方式二：普通部署<br>安装服务器软件<br>Node.js &gt;=6.9.2。<br>如果安装完 Node.js 后，没有自动安装 NPM，则需要手动安装。</p>
+                <h1 id="开源Nei"><a href="#开源Nei" class="headerlink" title="开源Nei"></a>开源Nei</h1><p>部署方式</p>
+<h3 id="部署方式一：Docker-部署"><a href="#部署方式一：Docker-部署" class="headerlink" title="部署方式一：Docker 部署"></a>部署方式一：Docker 部署</h3><p>因为有服务依赖，所以需要做容器编排，如果你使用的是 docker-compose，可以直接通过 docker-compose up -d 部署，默认服务运行在本地 8082 端口，你也可以加入 Caddy 或者 Nginx 编排用于实际生产环境。</p>
+<h3 id="部署方式二：普通部署"><a href="#部署方式二：普通部署" class="headerlink" title="部署方式二：普通部署"></a>部署方式二：普通部署</h3><p>安装服务器软件<br>Node.js &gt;=6.9.2。<br>如果安装完 Node.js 后，没有自动安装 NPM，则需要手动安装。</p>
 <p>Redis &gt;=2.8。<br>MySQL &gt;=5.7.12，初始化脚本为 install.sql。<br>MongoDB &gt;=3.4。<br>安装依赖和构建代码<br>在项目根目录依次执行下述命令，并确保没有错误发生：</p>
 <p>npm install nej -g<br>npm install<br>npm run build<br>上述过程一般都是自动化执行的，请结合你们公司的部署平台编写自动化脚本。</p>
 <p>注意，npm install 的速度可能比较慢，可以使用淘宝源，比如 npm install –registry=<a target="_blank" rel="noopener" href="https://registry.npm.taobao.org./">https://registry.npm.taobao.org。</a></p>
-<p>启动应用<br>部署前，请确认应用的配置是否都填写正确，比如数据库的连接配置等。配置文件都放在 server/config 目录下面，其中 develop.js、test.js和online.js 分别为本地环境、测试环境、线上环境的配置文件。配置文件中的参数含义应该比较清晰直白，这里就不再展开介绍。然后，运行下述命令可启动应用：</p>
+<h3 id="启动应用"><a href="#启动应用" class="headerlink" title="启动应用"></a>启动应用</h3><p>部署前，请确认应用的配置是否都填写正确，比如数据库的连接配置等。配置文件都放在 server/config 目录下面，其中 develop.js、test.js和online.js 分别为本地环境、测试环境、线上环境的配置文件。配置文件中的参数含义应该比较清晰直白，这里就不再展开介绍。然后，运行下述命令可启动应用：</p>
 <p> npm start<br>默认情况下，应用会运行在 8082 端口上，所以如果想将应用绑定到特定域名，一般需要 Nginx 服务器，参考配置。</p>
-<p>停止应用<br> npm stop<br>注意事项<br>NEI 没有提供恢复已被删资源的功能，根据实际经验，会存在不小心删除接口、数据模型等情形，一旦发生损失就会很严重。建议给重要的数据库表（比如 interface、datatype、parameter等）添加删除操作的触发器，将删除的数据写入备份数据库，保证在误删除操作时可以找回数据。<br>为了安全，请给所有可以设置密码的软件添加密码，比如 Redis 等。<br>考虑到研发成本，NEI 只兼容 Chrome 浏览器。<br>由于打包工具的限制，NEI 的前端 JavaScript 不支持绝大多数的 ES6 语法，不然会构建失败。<br>部署时很有可能会遇到各种各样的环境问题，最好是让专业的运维人员来操作。<br>如果是可以复现的问题，很可能会被很多人遇到，所以优先推荐在 issues 中进行搜索是否有相同问题。<br>本地开发<br>NEI 的前端使用的是 NEJ 和 Regularjs，后端使用的是 Koa 框架。如果想对项目进行改造，需要学习上述技术。</p>
-<p>首次运行需要先安装依赖：</p>
-<p>npm install<br>运行下面的命令可以启动本地开发：</p>
+<h3 id="停止应用"><a href="#停止应用" class="headerlink" title="停止应用"></a>停止应用</h3><p> npm stop<br>注意事项<br>NEI 没有提供恢复已被删资源的功能，根据实际经验，会存在不小心删除接口、数据模型等情形，一旦发生损失就会很严重。建议给重要的数据库表（比如 interface、datatype、parameter等）添加删除操作的触发器，将删除的数据写入备份数据库，保证在误删除操作时可以找回数据。<br>为了安全，请给所有可以设置密码的软件添加密码，比如 Redis 等。<br>考虑到研发成本，NEI 只兼容 Chrome 浏览器。<br>由于打包工具的限制，NEI 的前端 JavaScript 不支持绝大多数的 ES6 语法，不然会构建失败。<br>部署时很有可能会遇到各种各样的环境问题，最好是让专业的运维人员来操作。<br>如果是可以复现的问题，很可能会被很多人遇到，所以优先推荐在 issues 中进行搜索是否有相同问题。</p>
+<h3 id="本地开发"><a href="#本地开发" class="headerlink" title="本地开发"></a>本地开发</h3><p>NEI 的前端使用的是 NEJ 和 Regularjs，后端使用的是 Koa 框架。如果想对项目进行改造，需要学习上述技术。</p>
+<h3 id="首次运行需要先安装依赖："><a href="#首次运行需要先安装依赖：" class="headerlink" title="首次运行需要先安装依赖："></a>首次运行需要先安装依赖：</h3><p>npm install<br>运行下面的命令可以启动本地开发：</p>
 <p>npm run dev<br><img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2616039087,245490236&fm=26&gp=0.jpg"></p>
 
                 
@@ -641,7 +654,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://ipvb.gitee.io/blog/blog/2020/10/14/100vl/">https://ipvb.gitee.io/blog/blog/2020/10/14/100vl/</a>
+                    <a href="https://ipvb.gitee.io/blog/2020/10/14/100vl/">https://ipvb.gitee.io/blog/2020/10/14/100vl/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -840,6 +853,269 @@
     
 
     
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/blog/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/blog/libs/valine/av-min.js"></script>
+<script src="/blog/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'sWcRxg5Jp9pPQ6XVNr5dgzBw-gzGzoHsz',
+        appKey: 'nmlpDKdXMCBPhWR21WsLUO3w',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: '请输入你个评论'
+    });
+</script>
+
+    
 
     
 
@@ -856,7 +1132,7 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/blog/2020/10/16/%E5%B0%8F%E8%9E%83%E8%9F%B9%E7%9A%84%E6%97%A5%E8%AE%B0-%E5%8D%9A%E5%AE%A2-%E6%B5%8B%E8%AF%95%E7%89%889%E5%8F%B7/">
+                <a href="/blog/2020/10/16/xiao-pang-xie-de-ri-ji-bo-ke-ce-shi-ban-9-hao/">
                     <div class="card-image">
                         
                         <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3425107459,2578638701&fm=26&gp=0.jpg" class="responsive-img" alt="小螃蟹的日记@博客---测试版9号">
@@ -1149,7 +1425,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.7k</span>&nbsp;字
+                class="white-color">1.9k</span>&nbsp;字
             
             
             

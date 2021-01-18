@@ -29,12 +29,24 @@
 
     <script src="/blog/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.3.0"><link rel="stylesheet" href="/blog/css/prism-tomorrow.css" type="text/css"></head>
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/blog/atom.xml" title="ioovl" type="application/atom+xml">
+<link rel="stylesheet" href="/blog/css/prism-tomorrow.css" type="text/css"></head>
 
 
 
 
 <body>
+    <!-- 樱花飘落layout.ejs -->
+    <script type="text/javascript">
+        //只在桌面版网页启用特效
+        var windowWidth = $(window).width();
+        if (windowWidth > 768) {
+            document.write('<script type="text/javascript" src="/js/snow.js"><\/script>');
+        }
+    </script>    
+    <!-- 雪花飘落 -->
+    <!-- D:\hexo\blog\themes\hexo-theme-matery\source\js\snow.js -->
+    <!-- <script type="text/javascript" src="/js/snow.js"></script>     -->
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
@@ -527,7 +539,8 @@
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                开源Nei部署方式部署方式一：Docker 部署因为有服务依赖，所以需要做容器编排，如果你使用的是 docker-compose，可以直接通过 docker-compose up -d 部署，默认服务运行在本地 8082 端口，你也可以加入
+                                开源Nei部署方式
+部署方式一：Docker 部署因为有服务依赖，所以需要做容器编排，如果你使用的是 docker-compose，可以直接通过 docker-compose up -d 部署，默认服务运行在本地 8082 端口，你也可以加
                             
                         </div>
                         <div class="publish-info">
@@ -693,7 +706,7 @@ gitee 是国内的网站，相较于 github 访问速度更快；
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.7k</span>&nbsp;字
+                class="white-color">1.9k</span>&nbsp;字
             
             
             

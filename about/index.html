@@ -29,12 +29,24 @@
 
     <script src="/blog/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.3.0"><link rel="stylesheet" href="/blog/css/prism-tomorrow.css" type="text/css"></head>
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/blog/atom.xml" title="ioovl" type="application/atom+xml">
+<link rel="stylesheet" href="/blog/css/prism-tomorrow.css" type="text/css"></head>
 
 
 
 
 <body>
+    <!-- 樱花飘落layout.ejs -->
+    <script type="text/javascript">
+        //只在桌面版网页启用特效
+        var windowWidth = $(window).width();
+        if (windowWidth > 768) {
+            document.write('<script type="text/javascript" src="/js/snow.js"><\/script>');
+        }
+    </script>    
+    <!-- 雪花飘落 -->
+    <!-- D:\hexo\blog\themes\hexo-theme-matery\source\js\snow.js -->
+    <!-- <script type="text/javascript" src="/js/snow.js"></script>     -->
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
@@ -472,12 +484,14 @@
 
     <div id="aboutme" class="container about-container">
         <div class="card">
+            个人简历修改位置：
+            D:\hexo\blog\themes\hexo-theme-matery\layout\about.ejs
             <div class="card-content">
                 <div class="row">
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/blog/">5</a></span>
+    <span class="count"><a href="/blog/">6</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -507,7 +521,7 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/blog/">5</a></span>
+    <span class="count"><a href="/blog/">6</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -528,7 +542,7 @@
 
                                 </div>
                                 <div class="title">小螃蟹的日记</div>
-                                <div class="career">Software Engineer</div>
+                                <div class="career">码云bb酱</div>
                                 <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
                                     
     <a href="https://github.com/100vl" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
@@ -604,7 +618,7 @@
                     </div>
                 </div>
 
-                <div class="introduction center-align" data-aos="fade-up">If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.</div>
+                <div class="introduction center-align" data-aos="fade-up">吃饭不放盐,全靠酱油来bb</div>
 
                 <style type="text/css">
     #posts-chart,
@@ -665,7 +679,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,2,1,0,0],
+                data: [0,0,0,0,0,0,0,0,0,2,1,0,1],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -1072,7 +1086,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.7k</span>&nbsp;字
+                class="white-color">1.9k</span>&nbsp;字
             
             
             
