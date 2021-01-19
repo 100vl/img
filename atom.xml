@@ -6,7 +6,7 @@
   <link href="https://ioovl.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://ioovl.gitee.io/"/>
-  <updated>2021-01-18T03:49:16.124Z</updated>
+  <updated>2021-01-19T15:42:59.557Z</updated>
   <id>https://ioovl.gitee.io/</id>
   
   <author>
@@ -17,24 +17,55 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>表格相册</title>
+    <link href="https://ioovl.gitee.io/posts/63827.html"/>
+    <id>https://ioovl.gitee.io/posts/63827.html</id>
+    <published>2021-01-19T14:46:05.000Z</published>
+    <updated>2021-01-19T15:42:59.557Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;就是费手&quot;&gt;&lt;a href=&quot;#就是费手&quot; class=&quot;headerlink&quot; title=&quot;就是费手&quot;&gt;&lt;/a&gt;就是费手&lt;/h1&gt;&lt;p&gt;第一组和第二组可以合并&lt;/p&gt;
+&lt;h3 id=&quot;第一组&quot;&gt;&lt;a href=&quot;#第一组&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="日常" scheme="https://ioovl.gitee.io/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="123相册图床" scheme="https://ioovl.gitee.io/tags/123%E7%9B%B8%E5%86%8C%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
     <title>修改连接</title>
-    <link href="https://ioovl.gitee.io/posts/undefined.html"/>
-    <id>https://ioovl.gitee.io/posts/undefined.html</id>
+    <link href="https://ioovl.gitee.io/posts/38873.html"/>
+    <id>https://ioovl.gitee.io/posts/38873.html</id>
     <published>2021-01-18T03:01:30.000Z</published>
-    <updated>2021-01-18T03:49:16.124Z</updated>
+    <updated>2021-01-19T15:23:47.398Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;layout-“&quot;&gt;&lt;a href=&quot;#layout-“&quot; class=&quot;headerlink&quot; title=&quot;layout: “&quot;&gt;&lt;/a&gt;layout: “&lt;/h1&gt;&lt;p&gt;文章生成永久链接&lt;/p&gt;
-&lt;h3 id=&quot;1号&quot;&gt;&lt;a href=&quot;#1号&quot;</summary>
+    <summary type="html">&lt;h3 id=&quot;1号-创建&quot;&gt;&lt;a href=&quot;#1号-创建&quot; class=&quot;headerlink&quot; title=&quot;1号-创建&quot;&gt;&lt;/a&gt;1号-创建&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;首页导航栏，创建新的分类&lt;/p&gt;
+&lt;pre class=&quot; language-hexo&quot;&gt;&lt;code</summary>
         
       
     
     
     
+    <category term="设置" scheme="https://ioovl.gitee.io/categories/%E8%AE%BE%E7%BD%AE/"/>
+    
+    
+    <category term="hexo" scheme="https://ioovl.gitee.io/tags/hexo/"/>
     
   </entry>
   
