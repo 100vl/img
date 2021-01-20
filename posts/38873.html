@@ -203,7 +203,7 @@
     <ul class="sub-nav menus_item_child ">
       
       <li>
-        <a href="/ioovl/musics">
+        <a href="/ioovl/dsm">
           
           <i class="fas fa-database" style="margin-top: -20px; zoom: 0.6;"></i>
           
@@ -212,7 +212,7 @@
       </li>
       
       <li>
-        <a href="/ioovl/movies">
+        <a href="/ioovl/picture">
           
           <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
           
@@ -221,7 +221,7 @@
       </li>
       
       <li>
-        <a href="/ioovl/books">
+        <a href="/ioovl/video">
           
           <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
           
@@ -230,7 +230,7 @@
       </li>
       
       <li>
-        <a href="/ioovl/galleries">
+        <a href="/ioovl/musics">
           
           <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
           
@@ -421,7 +421,7 @@
               
                 <li>
 
-                  <a href="/ioovl/musics " style="margin-left:75px">
+                  <a href="/ioovl/dsm " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-database" style="position: absolute;left:50px" ></i>
 			      
@@ -431,7 +431,7 @@
               
                 <li>
 
-                  <a href="/ioovl/movies " style="margin-left:75px">
+                  <a href="/ioovl/picture " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
 			      
@@ -441,7 +441,7 @@
               
                 <li>
 
-                  <a href="/ioovl/books " style="margin-left:75px">
+                  <a href="/ioovl/video " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
 			      
@@ -451,7 +451,7 @@
               
                 <li>
 
-                  <a href="/ioovl/galleries " style="margin-left:75px">
+                  <a href="/ioovl/musics " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
 			      
@@ -712,7 +712,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    210
+                    212
                 </div>
                 
 
@@ -734,6 +734,9 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/ioovl/libs/prism/prism.css">
+        
 
         
 
@@ -741,15 +744,15 @@
             <div id="articleContent">
                 <h3 id="1号-创建"><a href="#1号-创建" class="headerlink" title="1号-创建"></a>1号-创建</h3><hr>
 <p>首页导航栏，创建新的分类</p>
-<pre class=" language-hexo"><code class="language-hexo">hexo new page 新的分类名字</code></pre>
+<pre class="line-numbers language-hexo" data-language="hexo"><code class="language-hexo">hexo new page 新的分类名字<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>创建新的博客</p>
-<pre class=" language-hexo"><code class="language-hexo">hexo new 新的博客名字</code></pre>
-<pre class=" language-重要配置"><code class="language-重要配置">〞hexo重要配置文件：_config.yml〞</code></pre>
-<h3 id="2号"><a href="#2号" class="headerlink" title="2号"></a>2号</h3><h1 id="layout-“"><a href="#layout-“" class="headerlink" title="layout: “"></a>layout: “</h1><h2 id="修改连接：文章生成永久链接"><a href="#修改连接：文章生成永久链接" class="headerlink" title="修改连接：文章生成永久链接"></a>修改连接：文章生成永久链接</h2><pre class=" language-yml"><code class="language-yml">abbrlink:
+<pre class="line-numbers language-hexo" data-language="hexo"><code class="language-hexo">hexo new 新的博客名字<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-重要配置" data-language="重要配置"><code class="language-重要配置">〞hexo重要配置文件：_config.yml〞<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="2号"><a href="#2号" class="headerlink" title="2号"></a>2号</h3><h1 id="layout-“"><a href="#layout-“" class="headerlink" title="layout: “"></a>layout: “</h1><h2 id="修改连接：文章生成永久链接"><a href="#修改连接：文章生成永久链接" class="headerlink" title="修改连接：文章生成永久链接"></a>修改连接：文章生成永久链接</h2><pre class="line-numbers language-yml" data-language="yml"><code class="language-yml">abbrlink:
     alg: crc16   #算法： crc16(default) and crc32
-    rep: hex     #进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为</code></pre>
+    rep: hex     #进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <h3 id="3号"><a href="#3号" class="headerlink" title="3号"></a>3号</h3><hr>
-<pre class=" language-yml"><code class="language-yml">permalink: posts/:abbrlink.html  # 此处可以自己设置，也可以直接使用 :/abbrlink </code></pre>
+<pre class="line-numbers language-yml" data-language="yml"><code class="language-yml">permalink: posts&#x2F;:abbrlink.html  # 此处可以自己设置，也可以直接使用 :&#x2F;abbrlink <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <h3 id="4号表格"><a href="#4号表格" class="headerlink" title="4号表格"></a>4号表格</h3><hr>
 <table>
 <thead>
@@ -1578,7 +1581,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">2.1k</span>&nbsp;字
+                class="white-color">2.3k</span>&nbsp;字
             
             
             
