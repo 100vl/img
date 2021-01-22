@@ -6,7 +6,7 @@
   <link href="https://ioovl.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://ioovl.gitee.io/"/>
-  <updated>2021-01-20T15:31:24.401Z</updated>
+  <updated>2021-01-22T11:13:46.230Z</updated>
   <id>https://ioovl.gitee.io/</id>
   
   <author>
@@ -17,18 +17,74 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>动图gif</title>
+    <link href="https://ioovl.gitee.io/posts/9503.html"/>
+    <id>https://ioovl.gitee.io/posts/9503.html</id>
+    <published>2021-01-22T10:38:59.000Z</published>
+    <updated>2021-01-22T11:13:46.230Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;第一组&quot;&gt;&lt;a href=&quot;#第一组&quot; class=&quot;headerlink&quot; title=&quot;第一组&quot;&gt;&lt;/a&gt;第一组&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="图片" scheme="https://ioovl.gitee.io/categories/%E5%9B%BE%E7%89%87/"/>
+    
+    
+    <category term="gif相册图床" scheme="https://ioovl.gitee.io/tags/gif%E7%9B%B8%E5%86%8C%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>302，CNAME和A记录冲突</title>
+    <link href="https://ioovl.gitee.io/posts/23067.html"/>
+    <id>https://ioovl.gitee.io/posts/23067.html</id>
+    <published>2021-01-22T09:13:40.000Z</published>
+    <updated>2021-01-22T10:31:04.396Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;302定义&quot;&gt;&lt;a href=&quot;#302定义&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="100vl" scheme="https://ioovl.gitee.io/categories/100vl/"/>
+    
+    
+    <category term="DNS解析" scheme="https://ioovl.gitee.io/tags/DNS%E8%A7%A3%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>小螃蟹的日记</title>
     <link href="https://ioovl.gitee.io/posts/36252.html"/>
     <id>https://ioovl.gitee.io/posts/36252.html</id>
     <published>2021-01-20T10:32:41.000Z</published>
-    <updated>2021-01-20T15:31:24.401Z</updated>
+    <updated>2021-01-22T10:32:52.341Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;首页&quot;&gt;&lt;a href=&quot;#首页&quot; class=&quot;headerlink&quot; title=&quot;首页&quot;&gt;&lt;/a&gt;首页&lt;/h1&gt;&lt;h3 id=&quot;轮播图&quot;&gt;&lt;a href=&quot;#轮播图&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;一-首页&quot;&gt;&lt;a href=&quot;#一-首页&quot; class=&quot;headerlink&quot; title=&quot;一.首页&quot;&gt;&lt;/a&gt;一.首页&lt;/h2&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&quot;轮播图&quot;&gt;&lt;a href=&quot;#轮播图&quot;</summary>
         
       
     
@@ -46,7 +102,7 @@
     <link href="https://ioovl.gitee.io/posts/58446.html"/>
     <id>https://ioovl.gitee.io/posts/58446.html</id>
     <published>2021-01-20T10:03:01.000Z</published>
-    <updated>2021-01-20T10:18:53.863Z</updated>
+    <updated>2021-01-22T10:36:14.769Z</updated>
     
     
       
@@ -131,7 +187,7 @@
     <link href="https://ioovl.gitee.io/posts/63827.html"/>
     <id>https://ioovl.gitee.io/posts/63827.html</id>
     <published>2021-01-19T14:46:05.000Z</published>
-    <updated>2021-01-19T15:42:59.557Z</updated>
+    <updated>2021-01-22T10:41:02.471Z</updated>
     
     
       
@@ -145,7 +201,7 @@
     
     
     
-    <category term="日常" scheme="https://ioovl.gitee.io/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="图片" scheme="https://ioovl.gitee.io/categories/%E5%9B%BE%E7%89%87/"/>
     
     
     <category term="123相册图床" scheme="https://ioovl.gitee.io/tags/123%E7%9B%B8%E5%86%8C%E5%9B%BE%E5%BA%8A/"/>

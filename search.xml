@@ -4,11 +4,61 @@
   
     
     <entry>
+      <title>动图gif</title>
+      <link href="/ioovl/posts/9503.html"/>
+      <url>/ioovl/posts/9503.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="第一组"><a href="#第一组" class="headerlink" title="第一组"></a>第一组</h3><table><thead><tr><th><img src="https://preview.qiantucdn.com/58pic/35/08/83/65i58PICBbQ3V6YxTYHJx.gif!qt324new_nowater" alt="赞"></th><th><img src="https://preview.qiantucdn.com/58pic/34/88/53/37k58PIC8558PICZaC7RHAH5W.gif!qt324new_nowater" alt="加载"></th><th><img src="https://preview.qiantucdn.com/58pic/34/99/97/15P58PIC9iyxtQHPKfVzp.gif!qt324new_nowater" alt="心"></th></tr></thead><tbody><tr><td><img src="https://preview.qiantucdn.com/58pic/34/99/06/58PIC2x58PICWdFdYtksi4mp3.gif!qt324new_nowater" alt="哇哦"></td><td><img src="https://preview.qiantucdn.com/58pic/35/02/70/92858PICvVI2E59ey7BMF.gif!qt324new_nowater" alt="老师"></td><td><img src="https://preview.qiantucdn.com/58pic/35/16/91/84858PICGh2GD59I6IzKg.gif!qt324new_nowater" alt="太阳"></td></tr></tbody></table><table><thead><tr><th><img src="https://preview.qiantucdn.com/58pic/35/04/23/48m58PIC7qQeA7ZKCbfE3.gif!qt324new_nowater" alt="特别推荐"></th><th><img src="https://preview.qiantucdn.com/58pic/35/02/75/17n58PICVjjSAYgZwPsAD.gif!qt324new_nowater" alt="点击进入"></th><th><img src="https://preview.qiantucdn.com/58pic/34/98/44/68s58PICUSNQgYJ5ur4yY.gif!qt324new_nowater" alt="蓝色箭头"></th></tr></thead><tbody><tr><td><img src="https://preview.qiantucdn.com/58pic/35/08/52/65w58PICdCqektTBesivM.gif!qt324new_nowater" alt="红包"></td><td><img src="https://preview.qiantucdn.com/58pic/35/04/35/95B58PICwdiTEQ9wRi39v.gif!qt324new_nowater" alt="有福利"></td><td><img src="https://preview.qiantucdn.com/58pic/34/87/43/06558PICAwFP6FDVWdgXh.gif!qt324new_nowater" alt="向下点击"></td></tr></tbody></table><table><thead><tr><th><img src="https://preview.qiantucdn.com/58pic/34/99/55/40c58PICQFUEQG8bP3Jx8.gif!qt324new_nowater" alt="限时优惠"></th><th><img src="https://preview.qiantucdn.com/58pic/34/89/89/82H58PICIagK2U8ekkBEy.gif!qt324new_nowater" alt="点击进入"></th><th><img src="https://preview.qiantucdn.com/58pic/35/06/17/73a58PICW5n558PIC6dA3XJz5.gif!qt324new_nowater" alt="新品上市"></th></tr></thead><tbody><tr><td><img src="https://preview.qiantucdn.com/58pic/34/98/08/37U58PIC2jUeztH9D9tvK.gif!qt324new_nowater" alt="浪漫"></td><td><img src="https://preview.qiantucdn.com/58pic/34/97/80/67U58PICsB9aZT67kHISZ.gif!qt324new_nowater" alt="福"></td><td><img src="https://preview.qiantucdn.com/58pic/34/97/79/92h58PICYi63pwaIhaemc.gif!qt324new_nowater" alt="倒数计时"></td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 图片 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> gif相册图床 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>302，CNAME和A记录冲突</title>
+      <link href="/ioovl/posts/23067.html"/>
+      <url>/ioovl/posts/23067.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="302定义"><a href="#302定义" class="headerlink" title="302定义"></a>302定义</h2><p>简单的理解为该资源原本确实存在，但已经被临时改变了位置；换而言之，就是请求的资源暂时驻留在不同的URI下，故而除非特别指定了缓存头部指示，该状态码不可缓存</p><hr><blockquote><ul><li>根据定义，该响应代码的使用场景是，请求的资源暂时驻留在不同的URI下。</li><li>客户端收到的新的 URI，不是原始请求资源的替代引用。</li><li>只有当服务器发出 Cache-Control 或 Expires 头字段进行指示，此响应才能被缓存，否则不能被缓存。</li><li> 临时URI应该由响应头部中的 Location 字段给出。</li><li>除非请求方法是 HEAD ，否则响应的实体应该包含一个带有超链接到新的URI的短 HTML 注释。</li><li> 如果在除 GET 或 HEAD 两种请求方法之外的请求时，接收到302状态码，客户端不得自动重定向请求，除非用户可以确认；否则可能会更改发出请求的条件。</li><li> 如果一个客户端有链接编辑能力，其应当把所有的引用链接重定向到新的URL上。</li><li> 重定向到新地址时，客户端必须使用GET方法请求新地址</li></ul></blockquote><h2 id="CNAME和A记录冲突"><a href="#CNAME和A记录冲突" class="headerlink" title="CNAME和A记录冲突"></a>CNAME和A记录冲突</h2><hr><blockquote><ul><li>CNAME指向多个ip地址</li><li>A指向一个ip地址</li><li>解析的指向地址是一个固定的还是多个动态的</li></ul></blockquote><blockquote><p>CDN加速CNAME<br>CDN需要二级域名，否则与A冲突</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 100vl </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> DNS解析 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>小螃蟹的日记</title>
       <link href="/ioovl/posts/36252.html"/>
       <url>/ioovl/posts/36252.html</url>
       
-        <content type="html"><![CDATA[<h1 id="首页"><a href="#首页" class="headerlink" title="首页"></a>首页</h1><h3 id="轮播图"><a href="#轮播图" class="headerlink" title="*轮播图"></a>*轮播图</h3><h3 id="小视频播放"><a href="#小视频播放" class="headerlink" title="*小视频播放"></a>*小视频播放</h3><h3 id="雪花飘落和樱花飘落特效"><a href="#雪花飘落和樱花飘落特效" class="headerlink" title="雪花飘落和樱花飘落特效"></a>雪花飘落和樱花飘落特效</h3><h3 id="鼠标点击特效"><a href="#鼠标点击特效" class="headerlink" title="鼠标点击特效"></a>鼠标点击特效</h3><h3 id="鼠标自定义样式"><a href="#鼠标自定义样式" class="headerlink" title="鼠标自定义样式"></a>鼠标自定义样式</h3><h3 id="Valine评论系统后台登录"><a href="#Valine评论系统后台登录" class="headerlink" title="Valine评论系统后台登录"></a>Valine评论系统后台登录</h3><h3 id="Valine-Admin-邮件实时回复"><a href="#Valine-Admin-邮件实时回复" class="headerlink" title="*Valine-Admin 邮件实时回复"></a>*Valine-Admin 邮件实时回复</h3><h3 id="Valine-添加自定义表情"><a href="#Valine-添加自定义表情" class="headerlink" title="Valine 添加自定义表情"></a>Valine 添加自定义表情</h3><h3 id="Valine-添加验证"><a href="#Valine-添加验证" class="headerlink" title="*Valine 添加验证"></a>*Valine 添加验证</h3><h3 id="Valine评论切换Twikoo"><a href="#Valine评论切换Twikoo" class="headerlink" title="Valine评论切换Twikoo"></a>Valine评论切换Twikoo</h3><h3 id="页面样式切换"><a href="#页面样式切换" class="headerlink" title="页面样式切换"></a>页面样式切换</h3><h3 id="页面插入广告"><a href="#页面插入广告" class="headerlink" title="页面插入广告"></a>页面插入广告</h3><h3 id="天气小插件"><a href="#天气小插件" class="headerlink" title="天气小插件"></a>天气小插件</h3><h3 id="时间小插件"><a href="#时间小插件" class="headerlink" title="时间小插件"></a>时间小插件</h3>]]></content>
+        <content type="html"><![CDATA[<hr><h2 id="一-首页"><a href="#一-首页" class="headerlink" title="一.首页"></a>一.首页</h2><hr><blockquote><h3 id="轮播图"><a href="#轮播图" class="headerlink" title="*轮播图"></a>*轮播图</h3><h3 id="小视频播放"><a href="#小视频播放" class="headerlink" title="*小视频播放"></a>*小视频播放</h3></blockquote><h3 id="雪花飘落和樱花飘落特效"><a href="#雪花飘落和樱花飘落特效" class="headerlink" title="雪花飘落和樱花飘落特效"></a>雪花飘落和樱花飘落特效</h3><h3 id="鼠标点击和移动特效"><a href="#鼠标点击和移动特效" class="headerlink" title="鼠标点击和移动特效"></a>鼠标点击和移动特效</h3><h3 id="鼠标自定义样式"><a href="#鼠标自定义样式" class="headerlink" title="鼠标自定义样式"></a>鼠标自定义样式</h3><hr><h2 id="二-Valine"><a href="#二-Valine" class="headerlink" title="二.Valine"></a>二.Valine</h2><hr><h3 id="Valine评论系统后台登录的管理（删除，标记等）"><a href="#Valine评论系统后台登录的管理（删除，标记等）" class="headerlink" title="Valine评论系统后台登录的管理（删除，标记等）"></a>Valine评论系统后台登录的管理（删除，标记等）</h3><blockquote><h3 id="Valine-Admin评论-邮件，微信，QQ推送提醒回复"><a href="#Valine-Admin评论-邮件，微信，QQ推送提醒回复" class="headerlink" title="*Valine-Admin评论 邮件，微信，QQ推送提醒回复"></a>*Valine-Admin评论 邮件，微信，QQ推送提醒回复</h3></blockquote><h3 id="Valine-添加自定义表情，用户头像，用户分类标签（博主，访客，朋友等）"><a href="#Valine-添加自定义表情，用户头像，用户分类标签（博主，访客，朋友等）" class="headerlink" title="Valine 添加自定义表情，用户头像，用户分类标签（博主，访客，朋友等）"></a>Valine 添加自定义表情，用户头像，用户分类标签（博主，访客，朋友等）</h3><blockquote><h3 id="修改js：hexo-theme-matery-source-libs-valine-Valine-min-js"><a href="#修改js：hexo-theme-matery-source-libs-valine-Valine-min-js" class="headerlink" title="*修改js：hexo-theme-matery\source\libs\valine\Valine.min.js"></a>*修改js：hexo-theme-matery\source\libs\valine\Valine.min.js</h3><h3 id="Valine-添加验证"><a href="#Valine-添加验证" class="headerlink" title="*Valine 添加验证"></a>*Valine 添加验证</h3></blockquote><h3 id="Valine评论切换Twikoo"><a href="#Valine评论切换Twikoo" class="headerlink" title="Valine评论切换Twikoo"></a>Valine评论切换Twikoo</h3><hr><h2 id="三-页面"><a href="#三-页面" class="headerlink" title="三.页面"></a>三.页面</h2><hr><h3 id="页面样式切换"><a href="#页面样式切换" class="headerlink" title="页面样式切换"></a>页面样式切换</h3><h3 id="页面插入广告"><a href="#页面插入广告" class="headerlink" title="页面插入广告"></a>页面插入广告</h3><h3 id="天气小插件"><a href="#天气小插件" class="headerlink" title="天气小插件"></a>天气小插件</h3><h3 id="时间小插件"><a href="#时间小插件" class="headerlink" title="时间小插件"></a>时间小插件</h3><hr><h3 id="置顶命令"><a href="#置顶命令" class="headerlink" title="置顶命令"></a>置顶命令</h3><hr><pre class="line-numbers language-none"><code class="language-none">top: true<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><hr><h3 id="博客封面图地址"><a href="#博客封面图地址" class="headerlink" title="博客封面图地址"></a>博客封面图地址</h3><hr><pre class="line-numbers language-none"><code class="language-none">img: https:&#x2F;&#x2F;xxx.jpg<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><hr>]]></content>
       
       
       <categories>
@@ -119,7 +169,7 @@
       
       <categories>
           
-          <category> 日常 </category>
+          <category> 图片 </category>
           
       </categories>
       
